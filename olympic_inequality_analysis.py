@@ -11,7 +11,7 @@
 # - A *record* (or entry) is one row of `athlete_events.csv`: one athlete in one event at one Games.
 # - *Athlete-level medals* count every medal row, so each member of a medal-winning team counts once.
 # - *Medal-table medals* count one medal per NOC per event per medal type, as in an official medal table.
-# - Figures are saved to `figures/` at 300 dpi.
+# - Figures are saved to `figures/` at 600 dpi.
 
 # %%
 import os, json, warnings
@@ -36,18 +36,32 @@ os.makedirs(FIG_DIR, exist_ok=True)
 #   so all text prints at exactly the same 8 pt size in every figure;
 # - text in Arial (Liberation Sans is the metric-identical fallback when Arial is not installed);
 # - subfigure labels (a), (b), (c) centred below each panel in 8 pt Times New Roman (fallback Liberation Serif);
-# - no titles or captions inside the figure (the caption goes in the manuscript); 300 dpi for colour figures.
+# - no titles or captions inside the figure (the caption goes in the manuscript); 600 dpi output (IEEE asks for at least 300 dpi for colour figures).
 COL_W, PAGE_W = 3.35, 6.97
 PT = 8
 ANNOT = PT
-SANS = ["Arial", "Helvetica", "Liberation Sans"]
-SERIF = ["Times New Roman", "Liberation Serif"]
+import logging
+from matplotlib import font_manager
+logging.getLogger("matplotlib.font_manager").setLevel(logging.ERROR)  # no findfont warnings
+_INSTALLED = {f.name for f in font_manager.fontManager.ttflist}
+
+
+def first_installed(candidates, fallback):
+    """First font family from the list that is installed on this computer, else matplotlib's built-in fallback."""
+    return next((c for c in candidates if c in _INSTALLED), fallback)
+
+
+# Arial/Helvetica for figure text and Times New Roman for subfigure labels, with metric-identical fallbacks;
+# on a machine with none of them, DejaVu (bundled with matplotlib) is used instead of failing with warnings.
+SANS = [first_installed(["Arial", "Helvetica", "Liberation Sans", "Arimo"], "DejaVu Sans")]
+SERIF = [first_installed(["Times New Roman", "Liberation Serif", "Tinos", "Times"], "DejaVu Serif")]
+print(f"Figure fonts: {SANS[0]} (text), {SERIF[0]} (subfigure labels)")
 plt.rcParams.update({"font.family": "sans-serif", "font.sans-serif": SANS, "font.size": PT,
                      "axes.titlesize": PT, "axes.labelsize": PT, "xtick.labelsize": PT, "ytick.labelsize": PT,
                      "legend.fontsize": PT, "figure.titlesize": PT, "legend.title_fontsize": PT,
                      "lines.linewidth": 1.2, "lines.markersize": 3, "legend.handlelength": 1.6,
                      "legend.borderaxespad": 0.3, "legend.columnspacing": 1.0, "legend.handletextpad": 0.4,
-                     "figure.constrained_layout.use": True, "figure.dpi": 100, "savefig.dpi": 300,
+                     "figure.constrained_layout.use": True, "figure.dpi": 150, "savefig.dpi": 600,
                      "axes.grid": True, "grid.alpha": 0.3, "grid.linewidth": 0.5, "axes.linewidth": 0.6,
                      "xtick.major.width": 0.6, "ytick.major.width": 0.6,
                      "axes.spines.top": False, "axes.spines.right": False})

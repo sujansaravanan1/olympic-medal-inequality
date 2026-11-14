@@ -34,3 +34,7 @@ The data files are redistributed here unchanged for reproducibility; credit belo
 ## Note on AI assistance
 
 The AI system Claude (Anthropic) was used to help write and debug this code. The author reviewed the code and verified all results against the source data.
+
+## Fonts
+
+Figures use Arial (or Liberation Sans) for text and Times New Roman (or Liberation Serif) for subfigure labels. If none of these are installed, the notebook falls back to DejaVu Sans / DejaVu Serif (bundled with matplotlib) without warnings; only the typeface changes, not the results.
