@@ -1,0 +1,737 @@
+{
+ "records_total": 271116,
+ "years": [
+  1896,
+  2016
+ ],
+ "cluster_n": 85383,
+ "silhouette_k5": 0.2842,
+ "table1": [
+  {
+   "archetype": "Lean",
+   "share": 31.6,
+   "height": 182.7,
+   "weight": 77.6,
+   "age": 22.4,
+   "signature_sports": "Swimming, Football, Canoeing"
+  },
+  {
+   "archetype": "Compact",
+   "share": 23.4,
+   "height": 168.3,
+   "weight": 62.2,
+   "age": 23.6,
+   "signature_sports": "Gymnastics, Diving, Boxing"
+  },
+  {
+   "archetype": "Mid-career",
+   "share": 21.5,
+   "height": 178.6,
+   "weight": 74.7,
+   "age": 29.6,
+   "signature_sports": "Modern Pentathlon, Badminton, Fencing"
+  },
+  {
+   "archetype": "Heavyweight",
+   "share": 18.3,
+   "height": 192.8,
+   "weight": 98.2,
+   "age": 26.5,
+   "signature_sports": "Beach Volleyball, Basketball, Volleyball"
+  },
+  {
+   "archetype": "Veteran",
+   "share": 5.2,
+   "height": 176.4,
+   "weight": 76.7,
+   "age": 40.9,
+   "signature_sports": "Equestrianism, Shooting, Sailing"
+  }
+ ],
+ "height_range_1960_2016": [
+  23.3133,
+  25.2817
+ ],
+ "weight_range_1960_2016": [
+  34.4546,
+  36.9294
+ ],
+ "trend_per_decade": {
+  "Lean": {
+   "Height": 0.243,
+   "Weight": 0.0882,
+   "Age": 0.0893
+  },
+  "Compact": {
+   "Height": 0.1763,
+   "Weight": -0.0382,
+   "Age": 0.1091
+  },
+  "Mid-career": {
+   "Height": 0.4554,
+   "Weight": 0.0977,
+   "Age": 0.056
+  },
+  "Heavyweight": {
+   "Height": 0.5278,
+   "Weight": 0.4037,
+   "Age": 0.3206
+  },
+  "Veteran": {
+   "Height": 0.8476,
+   "Weight": 0.4387,
+   "Age": -0.239
+  }
+ },
+ "sd_change_1960_2016": {
+  "Lean": {
+   "Height": 0.386,
+   "Weight": 0.6038,
+   "Age": -0.0704
+  },
+  "Compact": {
+   "Height": -0.3098,
+   "Weight": -0.2399,
+   "Age": -0.134
+  },
+  "Mid-career": {
+   "Height": 0.2916,
+   "Weight": 0.6131,
+   "Age": -0.0518
+  },
+  "Heavyweight": {
+   "Height": 0.5849,
+   "Weight": 1.3275,
+   "Age": 0.4148
+  },
+  "Veteran": {
+   "Height": 0.213,
+   "Weight": 1.5341,
+   "Age": -0.8846
+  }
+ },
+ "athletics_share": {
+  "1896_1948_min": 9.7222,
+  "1896_1948_max": 35.7955,
+  "max_year": 1896,
+  "2016": 20.297,
+  "2028_proj": 19.8851
+ },
+ "swimming_2016": 8.4265,
+ "gymnastics": {
+  "peak": 18.6154,
+  "peak_year": 1904,
+  "2016": 1.7533
+ },
+ "sport_2016": {
+  "Athletics": 20.3,
+  "Swimming": 8.4,
+  "Gymnastics": 1.8,
+  "Basketball": 2.5,
+  "Football": 4.2,
+  "Rowing": 4.9,
+  "Shooting": 3.5,
+  "Cycling": 4.6
+ },
+ "sport_2028_proj": {
+  "Athletics": 19.9,
+  "Swimming": 9.0,
+  "Gymnastics": 0.6,
+  "Basketball": 2.2,
+  "Football": 3.8,
+  "Rowing": 4.3,
+  "Shooting": 2.8,
+  "Cycling": 4.1
+ },
+ "athletics_by_year": {
+  "1896": 35.8,
+  "1900": 9.7,
+  "1904": 17.8,
+  "1906": 27.7,
+  "1908": 21.3,
+  "1912": 22.2,
+  "1920": 19.0,
+  "1924": 20.2,
+  "1928": 21.7,
+  "1932": 20.1,
+  "1936": 17.3,
+  "1948": 16.9,
+  "1952": 19.5,
+  "1956": 21.5,
+  "1960": 19.0,
+  "1964": 19.8,
+  "1968": 18.5,
+  "1972": 18.7,
+  "1976": 16.6,
+  "1980": 18.3,
+  "1984": 18.8,
+  "1988": 19.1,
+  "1992": 18.4,
+  "1996": 19.9,
+  "2000": 20.1,
+  "2004": 18.9,
+  "2008": 18.9,
+  "2012": 19.8,
+  "2016": 20.3
+ },
+ "games_size": {
+  "1896": {
+   "sports": 9,
+   "events": 43,
+   "athletes": 176
+  },
+  "1912": {
+   "sports": 17,
+   "events": 107,
+   "athletes": 2409
+  },
+  "1948": {
+   "sports": 20,
+   "events": 153,
+   "athletes": 4402
+  },
+  "1960": {
+   "sports": 19,
+   "events": 150,
+   "athletes": 5352
+  },
+  "1988": {
+   "sports": 27,
+   "events": 237,
+   "athletes": 8454
+  },
+  "2016": {
+   "sports": 34,
+   "events": 306,
+   "athletes": 11179
+  }
+ },
+ "continents": {
+  "europe_peak": 5303.0,
+  "europe_peak_year": 2004,
+  "europe_2016": 5006.0,
+  "asia_2016": 1889.0,
+  "namerica_2016": 1448.0,
+  "africa_2016": 990.0,
+  "samerica_2016": 1065.0
+ },
+ "gini": {
+  "2016": 0.6916,
+  "2016_all_nocs": 0.8719,
+  "2016_table": 0.6354,
+  "1950s_mean": 0.6441,
+  "1960_2016_min": 0.6526,
+  "2028_trend": 0.7299,
+  "nocs_2016": 207,
+  "medal_nocs_2016": 86,
+  "top16_share_2016": 0.7177,
+  "top16_pct_of_medal_nocs": 0.186,
+  "bottom80_share_2016": 0.2536,
+  "all_nocs_min_since_1960": 0.8347
+ },
+ "treemap_top2_share": 0.2211,
+ "ols_2016": {
+  "r2": 0.7449,
+  "cv_r2": 0.6503,
+  "slope_per_tn": 6.9906,
+  "n": 198
+ },
+ "table2": [
+  {
+   "NOC": "USA",
+   "success_rate": 29.9,
+   "gdp_bn_2016": 18804.9
+  },
+  {
+   "NOC": "GER",
+   "success_rate": 22.0,
+   "gdp_bn_2016": 3469.9
+  },
+  {
+   "NOC": "CHN",
+   "success_rate": 19.2,
+   "gdp_bn_2016": 11233.3
+  },
+  {
+   "NOC": "GBR",
+   "success_rate": 16.9,
+   "gdp_bn_2016": 2689.1
+  },
+  {
+   "NOC": "CUB",
+   "success_rate": 16.5,
+   "gdp_bn_2016": 91.4
+  },
+  {
+   "NOC": "JPN",
+   "success_rate": 10.8,
+   "gdp_bn_2016": 5003.7
+  },
+  {
+   "NOC": "NZL",
+   "success_rate": 9.7,
+   "gdp_bn_2016": 188.9
+  }
+ ],
+ "roi_top": [
+  {
+   "NOC": "JAM",
+   "medals": 157,
+   "gdp_bn_2016": 14.08,
+   "roi": 11.15
+  },
+  {
+   "NOC": "HUN",
+   "medals": 1135,
+   "gdp_bn_2016": 128.61,
+   "roi": 8.83
+  },
+  {
+   "NOC": "BUL",
+   "medals": 342,
+   "gdp_bn_2016": 53.96,
+   "roi": 6.34
+  },
+  {
+   "NOC": "CUB",
+   "medals": 409,
+   "gdp_bn_2016": 91.37,
+   "roi": 4.48
+  },
+  {
+   "NOC": "FIN",
+   "medals": 900,
+   "gdp_bn_2016": 240.77,
+   "roi": 3.74
+  },
+  {
+   "NOC": "ROU",
+   "medals": 653,
+   "gdp_bn_2016": 185.29,
+   "roi": 3.52
+  },
+  {
+   "NOC": "BAH",
+   "medals": 40,
+   "gdp_bn_2016": 11.75,
+   "roi": 3.41
+  },
+  {
+   "NOC": "MNE",
+   "medals": 14,
+   "gdp_bn_2016": 4.38,
+   "roi": 3.2
+  }
+ ],
+ "top5_bottom5": {
+  "top5": [
+   "USA",
+   "GER",
+   "NOR",
+   "PAK",
+   "NED"
+  ],
+  "bottom5": [
+   "EGY",
+   "PER",
+   "ISL",
+   "COL",
+   "LUX"
+  ],
+  "n_qualified": 46,
+  "gap_mean": 21.3608,
+  "gap_2010s": 17.6651,
+  "gap_by_decade": {
+   "1910": 33.6,
+   "1920": 23.7,
+   "1930": 24.4,
+   "1940": 16.8,
+   "1950": 13.9,
+   "1960": 21.8,
+   "1970": 25.9,
+   "1980": 18.9,
+   "1990": 21.3,
+   "2000": 17.1,
+   "2010": 17.7
+  },
+  "bottom5_max": 3.379
+ },
+ "high_vs_other": {
+  "high": [
+   "USA",
+   "GER",
+   "NED"
+  ],
+  "other": [
+   "AUS",
+   "FIN",
+   "CAN",
+   "SUI",
+   "POL"
+  ],
+  "gap_2010s": 10.7872,
+  "high_range_1920s_on": [
+   17.0742,
+   26.6107
+  ],
+  "other_1920s": 19.9594,
+  "other_1970s": 8.7397,
+  "other_2010s": 14.5191,
+  "gap_1920s": 2.6562,
+  "gap_1940s_on_range": [
+   5.3618,
+   14.5762
+  ],
+  "decades_high_leads_since_1910": 11,
+  "decades_since_1910": 11
+ },
+ "trajectories": {
+  "AUS": {
+   "1890": 60.0,
+   "1900": 59.1,
+   "1910": NaN,
+   "1920": 18.5,
+   "1930": 9.7,
+   "1940": 15.5,
+   "1950": 14.8,
+   "1960": 14.8,
+   "1970": 7.5,
+   "1980": 10.6,
+   "1990": 18.3,
+   "2000": 24.1,
+   "2010": 17.3
+  },
+  "CAN": {
+   "1890": NaN,
+   "1900": 47.3,
+   "1910": 13.3,
+   "1920": 27.4,
+   "1930": 20.8,
+   "1940": 9.4,
+   "1950": 14.4,
+   "1960": 7.9,
+   "1970": 3.6,
+   "1980": 8.5,
+   "1990": 15.5,
+   "2000": 12.7,
+   "2010": 21.0
+  },
+  "FIN": {
+   "1890": NaN,
+   "1900": 30.4,
+   "1910": 30.5,
+   "1920": 25.5,
+   "1930": 22.7,
+   "1940": 16.2,
+   "1950": 13.2,
+   "1960": 6.8,
+   "1970": 10.4,
+   "1980": 15.3,
+   "1990": 18.9,
+   "2000": 12.5,
+   "2010": 20.0
+  },
+  "GER": {
+   "1890": 34.0,
+   "1900": 24.2,
+   "1910": 17.0,
+   "1920": 18.2,
+   "1930": 33.0,
+   "1940": NaN,
+   "1950": 13.4,
+   "1960": 19.4,
+   "1970": NaN,
+   "1980": NaN,
+   "1990": 23.7,
+   "2000": 21.5,
+   "2010": 21.8
+  },
+  "NED": {
+   "1890": NaN,
+   "1900": 14.4,
+   "1910": 57.8,
+   "1920": 15.7,
+   "1930": 15.3,
+   "1940": 20.8,
+   "1950": 9.5,
+   "1960": 12.0,
+   "1970": 8.3,
+   "1980": 17.2,
+   "1990": 18.4,
+   "2000": 25.2,
+   "2010": 22.3
+  },
+  "POL": {
+   "1890": NaN,
+   "1900": NaN,
+   "1910": NaN,
+   "1920": 8.7,
+   "1930": 10.9,
+   "1940": 2.1,
+   "1950": 5.0,
+   "1960": 11.4,
+   "1970": 13.9,
+   "1980": 9.7,
+   "1990": 9.6,
+   "2000": 6.5,
+   "2010": 5.9
+  },
+  "SUI": {
+   "1890": 37.5,
+   "1900": 34.3,
+   "1910": 28.6,
+   "1920": 19.8,
+   "1930": 16.8,
+   "1940": 16.6,
+   "1950": 12.2,
+   "1960": 5.9,
+   "1970": 8.3,
+   "1980": 7.9,
+   "1990": 7.0,
+   "2000": 10.4,
+   "2010": 8.3
+  },
+  "USA": {
+   "1890": 74.1,
+   "1900": 35.4,
+   "1910": 29.4,
+   "1920": 33.9,
+   "1930": 24.4,
+   "1940": 32.2,
+   "1950": 28.9,
+   "1960": 27.6,
+   "1970": 25.9,
+   "1980": 31.6,
+   "1990": 23.6,
+   "2000": 33.1,
+   "2010": 31.8
+  }
+ },
+ "nb": {
+  "n_obs": 1162,
+  "n_nocs": 201,
+  "n_missing": 52,
+  "lr_chi2": 207.0501,
+  "lr_p": 0.0,
+  "irr": {
+   "NB1": {
+    "log_gdp": 2.1106
+   },
+   "NB2": {
+    "log_gdp": 2.0855,
+    "log_pop": 1.075,
+    "host": 2.4685,
+    "post_soviet": 5.1964
+   },
+   "NB3": {
+    "log_gdp": 1.3588,
+    "log_pop": 1.0636,
+    "host": 1.1594,
+    "post_soviet": 3.0003,
+    "log_med_prev": 2.507
+   }
+  },
+  "p": {
+   "NB1": {
+    "log_gdp": 0.0
+   },
+   "NB2": {
+    "log_gdp": 0.0,
+    "log_pop": 0.4938,
+    "host": 0.0001,
+    "post_soviet": 0.0
+   },
+   "NB3": {
+    "log_gdp": 0.0,
+    "log_pop": 0.2338,
+    "host": 0.458,
+    "post_soviet": 0.0,
+    "log_med_prev": 0.0
+   }
+  },
+  "coef": {
+   "NB1": {
+    "log_gdp": 0.747
+   },
+   "NB2": {
+    "log_gdp": 0.735,
+    "log_pop": 0.0723,
+    "host": 0.9036,
+    "post_soviet": 1.648
+   },
+   "NB3": {
+    "log_gdp": 0.3066,
+    "log_pop": 0.0617,
+    "host": 0.1479,
+    "post_soviet": 1.0987,
+    "log_med_prev": 0.9191
+   }
+  },
+  "table3": {
+   "NB1": {
+    "log_gdp": "0.747*** (0.045)",
+    "log_pop": "",
+    "host": "",
+    "post_soviet": "",
+    "log_med_prev": "",
+    "alpha": "2.22",
+    "AIC": "3,973.0",
+    "pseudo_R2": "0.145",
+    "CV_R2": "0.610"
+   },
+   "NB2": {
+    "log_gdp": "0.735*** (0.084)",
+    "log_pop": "0.072 (0.106)",
+    "host": "0.904*** (0.236)",
+    "post_soviet": "1.648*** (0.264)",
+    "log_med_prev": "",
+    "alpha": "1.42",
+    "AIC": "3,771.9",
+    "pseudo_R2": "0.189",
+    "CV_R2": "0.654"
+   },
+   "NB3": {
+    "log_gdp": "0.307*** (0.071)",
+    "log_pop": "0.062 (0.052)",
+    "host": "0.148 (0.199)",
+    "post_soviet": "1.099*** (0.170)",
+    "log_med_prev": "0.919*** (0.096)",
+    "alpha": "0.40",
+    "AIC": "3,239.5",
+    "pseudo_R2": "0.305",
+    "CV_R2": "0.746"
+   }
+  }
+ },
+ "residuals_2016": [
+  {
+   "NOC": "JAM",
+   "medals": 11,
+   "expected": 0.39,
+   "resid": 13.63
+  },
+  {
+   "NOC": "KEN",
+   "medals": 13,
+   "expected": 1.63,
+   "resid": 4.88
+  },
+  {
+   "NOC": "GRN",
+   "medals": 1,
+   "expected": 0.05,
+   "resid": 4.29
+  },
+  {
+   "NOC": "NZL",
+   "medals": 18,
+   "expected": 2.73,
+   "resid": 4.19
+  },
+  {
+   "NOC": "CUB",
+   "medals": 11,
+   "expected": 1.7,
+   "resid": 3.85
+  },
+  {
+   "NOC": "BAH",
+   "medals": 2,
+   "expected": 0.3,
+   "resid": 2.63
+  },
+  {
+   "NOC": "ETH",
+   "medals": 8,
+   "expected": 1.72,
+   "resid": 2.58
+  },
+  {
+   "NOC": "MGL",
+   "medals": 2,
+   "expected": 0.33,
+   "resid": 2.39
+  },
+  {
+   "NOC": "AZE",
+   "medals": 18,
+   "expected": 4.59,
+   "resid": 2.28
+  },
+  {
+   "NOC": "BDI",
+   "medals": 1,
+   "expected": 0.13,
+   "resid": 2.27
+  },
+  {
+   "NOC": "LAT",
+   "medals": 0,
+   "expected": 3.28,
+   "resid": -0.76
+  },
+  {
+   "NOC": "IND",
+   "medals": 2,
+   "expected": 25.73,
+   "resid": -0.76
+  },
+  {
+   "NOC": "CHI",
+   "medals": 0,
+   "expected": 3.69,
+   "resid": -0.77
+  },
+  {
+   "NOC": "HKG",
+   "medals": 0,
+   "expected": 4.16,
+   "resid": -0.78
+  },
+  {
+   "NOC": "TKM",
+   "medals": 0,
+   "expected": 4.3,
+   "resid": -0.78
+  },
+  {
+   "NOC": "BAN",
+   "medals": 0,
+   "expected": 4.52,
+   "resid": -0.78
+  },
+  {
+   "NOC": "PAK",
+   "medals": 0,
+   "expected": 5.23,
+   "resid": -0.79
+  },
+  {
+   "NOC": "KSA",
+   "medals": 0,
+   "expected": 7.89,
+   "resid": -0.8
+  }
+ ],
+ "gender": {
+  "2016": {
+   "Aquatic Sports": 1.06,
+   "Combat Sports": 0.54,
+   "Endurance Sports": 0.63,
+   "Gymnastics": 1.84,
+   "Power Sports": 0.68,
+   "Precision Sports": 0.73,
+   "Team Sports": 0.9,
+   "Track & Field": 0.91
+  },
+  "gymnastics_parity_year": 1972,
+  "combat_1992": 0.1934,
+  "combat_2016": 0.5416,
+  "categories_within_0.1_of_parity_2016": [
+   "Team Sports",
+   "Track & Field",
+   "Aquatic Sports",
+   "Gymnastics"
+  ]
+ }
+}
